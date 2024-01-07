@@ -2,8 +2,6 @@ name: Releasator
 
 on:
   push:
-    branches:
-      - main
     tags:
       - 'v*'
 
