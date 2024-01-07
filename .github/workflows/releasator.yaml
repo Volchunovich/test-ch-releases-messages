@@ -26,8 +26,7 @@ jobs:
           url: 'https://releasator.ru-web-designer.workers.dev/api/releases'
           method: 'POST'
           contentType: 'application/json'
-          headers: |
-            Authorization: Bearer ${{ secrets.RELEASATOR_TOKEN }}
+          bearerToken: ${{ secrets.RELEASATOR_TOKEN }}
           data: >
             {
               "repo": "${{ steps.get_repo.outputs.repo }}",
