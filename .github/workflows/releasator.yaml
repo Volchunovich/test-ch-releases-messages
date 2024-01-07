@@ -23,6 +23,7 @@ jobs:
           silent: true
           url: 'https://releasator.ru-web-designer.workers.dev/api/releases'
           method: 'POST'
+          timeout: 120000
           contentType: 'application/json'
           bearerToken: ${{ secrets.RELEASATOR_TOKEN }}
           data: >
