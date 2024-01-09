@@ -17,3 +17,5 @@ Stay tuned as we explore more features of Changeloguevara and share updates abou
 around our workspace! And now we even have `.gitignore`. Also have hello world.
 
 Text is generated with ChatGPT help.
+
+MY GIGA CHANGES FOR README
